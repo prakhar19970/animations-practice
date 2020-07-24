@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel='stylesheet' href='./animationPrac.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./animationsPrac.js"></script>
+    <title>Animations</title>
+</head>
+
+<body>
+    <header class='block-4 blue-gradient-backgroud'>
+        <h1 class="fadeInDown">Welcome to Animations Practice</h1>
+    </header>
+    <div id='bounceDiv' class='animations-card'>
+        <p id='bounceTitle' class='animation-title'>Bounce Animation --> Click me to see me bounce</p>
+        <div class='animation-content'>
+            <p>Hower over this ball to see it move in a bouncing manner</p>
+            <div class='position-right'>
+                <figure class='ball'></figure>
+            </div>
+        </div>
+
+    </div>
+
+    <div id='slideleftDiv' class='animations-small-card'>
+        <p class='animation-title'>Slide In Left Card</p>
+    </div>
+
+    <div id='sliderightDiv' class='animations-small-card'>
+        <p class='animation-title'>Slide In Right Card</p>
+    </div>
+
+    <div id='flipDiv' class='animations-small-card position-center'>
+        <p class='animation-title'>Flip Card Click ME to see me Flip</p>
+    </div>
+
+    <div class='footer'>
+        <button id='removeCards' class='footer-buttons'>Remove Cards</button>
+        <button id='showCards' class='footer-buttons'>Show Cards</button>
+    </div>
+
+    <div class="modalDiv" id="modal">
+        <div class='modal-content'>
+            <span class="close">&times;</span>
+        <div class="modal-title">
+            <h2>Welcome</h2>
+        </div>
+        <div >
+            <p>
+            --This page includes
+            <br> 
+            --- self implimented css animations
+            <br>
+            --- Animations.css
+            <br>
+            --- js triggred animations</p>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
